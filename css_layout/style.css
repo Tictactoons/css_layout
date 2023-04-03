@@ -1,0 +1,293 @@
+.head {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    font-family: montserrat;
+    color: grey;
+}
+body {
+    font-family: montserrat;
+}
+li, .lol {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 8px;
+    color: grey;
+    text-align: center;
+}
+.container-fluid {
+    padding: 1% 13%;
+}
+span, i {
+color: #00b39b;
+}
+
+h1 {
+font-family: ubuntu;
+font-weight: 400;
+font-size: 30px;
+padding-top: 5px;
+}
+
+/* Title section */
+.title i {
+    margin: 60px 0 20px 0;
+}
+.title {
+    text-align: center;
+    color: #00b39b;
+    font-weight: 300;
+    font-size: xx-large;
+}
+.ptitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: medium;
+    text-align: left;
+    color: gray;
+}
+.row-a {
+    padding: 20px 50px 10px;
+    margin-bottom: 3px;
+}
+.row-b {
+    padding: 1% 8%;
+    display: flex;
+    justify-content: space-between;
+    margin: 3px 70px;
+    outline: transparent;
+
+}
+.card {
+    gap: 2.5rem;
+    display: flex;
+    padding: 2em 10%;
+    text-align: left;
+    border-radius: 20px;
+}
+.skill {
+    padding: 13px;
+}
+.row i {
+    font-size: xx-large;
+    padding-bottom: 20px;
+}
+.row h5 {
+    font-family: montserrat;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 2.7rem;
+
+}
+.row p {
+    font-family: montserrat;
+    font-weight: 300;
+    color: grey;
+}
+.row-b p{
+    color: #fff;
+    font-size: x-large;
+}
+.ii {
+    color: #fff;
+    font-size: x-large;
+}
+#select3 .sel {
+    margin-bottom: 40px;
+}
+select {
+border: none;
+outline: none;
+background-color: transparent;
+color: #fff;
+text-decoration: underline;
+font-size: 20px;
+}
+.card1 {
+    height: 100%;
+    background-color: #00ccb1;
+    color: #fff;
+}
+.card2 {
+    height: 100%;
+    background-color: #3d83df;
+    color: #fff;
+}
+.card3 {
+    height: 100%;
+    background-color: #1b2734;
+    color: #fff;
+}
+
+.cad1 {
+    margin-bottom: 70px;
+}
+.cad2 {
+    margin-bottom: 64px;
+}
+
+/* Third row */
+
+.row-c {
+    padding: .5% 10% .5% 20%;
+}
+.c {
+   width: 400px;
+}
+.c p {
+font-size: 1.4rem;
+color: #00b39b;
+}
+.row-d i{
+    font-size: 28px;
+    padding: 29px 10px;
+}
+
+/* Another section */
+#plain {
+    background-color: #d0faf4;
+    height: 690px;
+}
+.big-i {
+    padding: 20px 7% 0 10%;
+}
+.big-i h3{
+    color: #00b39b;
+    margin-bottom: 35px;
+    font-weight: 300;
+    padding-top: 70px;
+}
+.big-i p {
+    color: grey;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+#plain i{
+    font-size: 500px;
+}
+
+.bush {
+    text-align: center;
+    width: 250px;
+    border-radius: 0;
+    border: 0;
+    margin-top: 30px;
+    height: 300px;
+    gap: 0;
+    justify-content: space-around;
+}
+.bush h4{
+    font-weight: 300;
+   
+}
+.bush i{
+    font-size: 30px !important;
+    padding-top: 30px;
+
+}
+.bush p {
+    font-size: small;
+    padding-top: 18px;
+    font-weight: 400;
+}
+
+.bush1 {
+    height: 250px;
+}
+.bush1  i{
+    padding-bottom: 5px !important;
+    margin-bottom: 10px !important;
+}
+
+.spal {
+    padding: 30px 50px;
+display: flex;
+    flex-direction: row;
+}
+
+/* newe */ 
+.newe {
+    background-color: white;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    padding: 5% 20%
+}
+.newe h3 {
+    padding-bottom: 22px;
+    color: #00b39b;
+    font-weight: 390;
+}
+.newe p {
+    color: grey;
+    font-weight: 300;
+}
+.swing {
+    padding: 3% 17%;
+}
+
+/* Countries */
+.country {
+    border: none;
+    outline: none;
+    gap: 0 !important;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-radius: 13px !important;
+   
+}
+.country:hover {
+    box-shadow: 0 .5rem 4rem rgba(0,0,0,0.15), inset 0 -1px 0 rgba(255,255,255,0.15);
+}
+.country img {
+    height: 230px;
+}
+.country .card-footer, button {
+    outline: none;
+    border: none;
+}
+
+button {
+    background-color: #3d83df;
+    color: white;
+    font-size: 11px;
+    font-weight: 500;
+    text-align: center;
+    display: inline-block;
+    height: 30px;
+    border-radius: 7px;
+}
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    height: 70px;
+    background-color: transparent;
+}
+.card-footer p {
+font-weight: 450;
+}
+.close {
+    padding-top: 30px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.close h3 {
+    padding-bottom: 15px;
+    font-weight: 350;
+}
+.close button {
+    width: 18%;
+    height: 40px;
+    font-size: 13px;
+    border-radius: 5px;
+}
+
+footer{
+    padding: 1% 15% 1%;
+    text-align: center;
+    font-size: 12px;
+    color: grey;
+}
